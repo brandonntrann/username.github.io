@@ -1,0 +1,110 @@
+body, .details {
+  background:#ccc;
+}
+.header, .experience, .details {
+  padding:20px;
+}
+
+.header{
+  background:#161617  ;
+  color:white;
+  position:fixed;
+  right:0;
+  top:0;
+  left:0;
+
+}
+
+.header .name{
+  float:left;
+}
+.header h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.header dl{
+  margin:0;
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+.header dt{
+  color:#EF1F57;
+}
+.experience {
+  background:#D5DDDC;
+  margin-top:170px;
+}
+
+.experience h4{
+  margin-top:30px;
+  font-size:18px;
+}
+.experience h6{
+  font-style:italic;
+}
+
+.experience ul{
+  margin-top:10px;
+  margin-bottom:10x;
+}
+
+dd {
+  margin:0 0 10 0;
+}
+
+h2{
+  font-size:32px;
+  font-weight:bold;
+}
+
+.skills,.misc ul {
+  list-style-type:none;
+  margin:0 0 10 0;
+}
+.skills li{
+  float:left;
+  margin: 0 10 10 0;
+  font-size:85%;
+  background:#343439;
+  color:white;
+  border-radius:5px;
+  -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding:4px;
+}
+.skills, .misc {
+  clear:left;
+}
+
+.misc li{
+  float:left;
+  margin: 0 10 10 0;
+  font-size:85%;
+  background:#343439;
+  color:white;
+  border-radius:5px;
+  -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding:4px;
+}
+
+.education dt{
+  font-weight:bold;
+  font-size:20px;
+}
+.education dd{
+  font-style:italic;
+  margin-top:10px;
+
+}
+
+
+.half{
+  float:left;
+  width:50%;
+}
